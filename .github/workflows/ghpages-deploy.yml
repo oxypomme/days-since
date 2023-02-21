@@ -50,7 +50,7 @@ jobs:
 
   release:
     name: Release
-    needs: build
+    needs: deploy
     permissions:
       contents: write
       deployments: write
