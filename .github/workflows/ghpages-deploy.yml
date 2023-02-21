@@ -20,7 +20,7 @@ jobs:
 
       - name: Build project
         run: |
-          yarn ci
+          yarn --frozen-lockfile
           yarn build
 
       - name: Upload production-ready build files
